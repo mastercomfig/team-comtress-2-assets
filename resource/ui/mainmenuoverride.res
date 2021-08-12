@@ -214,7 +214,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
 					
@@ -552,24 +552,6 @@
 				"keyboardinputenabled" "0"
 			}		
 		}
-	}
-
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
 	"QuestLogButton"
@@ -1395,53 +1377,53 @@
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
 
-				"CasualEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CasualEntry"
-					"xpos"			"0"
-					"ypos"			"3"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
+//				"CasualEntry"
+//				{
+//					"ControlName"	"CMainMenuPlayListEntry"
+//					"fieldName"		"CasualEntry"
+//					"xpos"			"0"
+//					"ypos"			"3"
+//					"tall"			"45"
+//					"wide"			"p1"
+//					"proportionaltoparent"	"1"
+//
+//					"image_name"		"main_menu/main_menu_button_casual"
+//					"button_token"		"#MMenu_PlayList_Casual_Button"
+//					"button_command"	"play_casual"
+//					"desc_token"		"#MMenu_PlayList_Casual_Desc"
+//				}
 
-					"image_name"		"main_menu/main_menu_button_casual"
-					"button_token"		"#MMenu_PlayList_Casual_Button"
-					"button_command"	"play_casual"
-					"desc_token"		"#MMenu_PlayList_Casual_Desc"
-				}
-
-				"CompetitiveEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"CompetitiveEntry"
-					"xpos"			"0"
-					"ypos"			"53"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_competitive"
-					"button_token"		"#MMenu_PlayList_Competitive_Button"
-					"button_command"	"play_competitive"
-					"desc_token"		"#MMenu_PlayList_Competitive_Desc"
-				}
-
-				"MvMEntry"
-				{
-					"ControlName"	"CMainMenuPlayListEntry"
-					"fieldName"		"MvMEntry"
-					"xpos"			"0"
-					"ypos"			"103"
-					"tall"			"45"
-					"wide"			"p1"
-					"proportionaltoparent"	"1"
-
-					"image_name"		"main_menu/main_menu_button_mvm"
-					"button_token"		"#MMenu_PlayList_MvM_Button"
-					"button_command"	"play_mvm"
-					"desc_token"		"#MMenu_PlayList_MvM_Desc"
-				}
+//				"CompetitiveEntry"
+//				{
+//					"ControlName"	"CMainMenuPlayListEntry"
+//					"fieldName"		"CompetitiveEntry"
+//					"xpos"			"0"
+//					"ypos"			"53"
+//					"tall"			"45"
+//					"wide"			"p1"
+//					"proportionaltoparent"	"1"
+//
+//					"image_name"		"main_menu/main_menu_button_competitive"
+//					"button_token"		"#MMenu_PlayList_Competitive_Button"
+//					"button_command"	"play_competitive"
+//					"desc_token"		"#MMenu_PlayList_Competitive_Desc"
+//				}
+//
+//				"MvMEntry"
+//				{
+//					"ControlName"	"CMainMenuPlayListEntry"
+//					"fieldName"		"MvMEntry"
+//					"xpos"			"0"
+//					"ypos"			"103"
+//					"tall"			"45"
+//					"wide"			"p1"
+//					"proportionaltoparent"	"1"
+//
+//					"image_name"		"main_menu/main_menu_button_mvm"
+//					"button_token"		"#MMenu_PlayList_MvM_Button"
+//					"button_command"	"play_mvm"
+//					"desc_token"		"#MMenu_PlayList_MvM_Desc"
+//				}
 
 				"ServerBrowserEntry"
 				{
@@ -1919,53 +1901,53 @@
 //				}
 //			}
 			
-			"CyclingAd"
-			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
+//			"CyclingAd"
+//			{
+//				"ControlName"			"CCyclingAdContainerPanel"
+//				"fieldName"				"CyclingAd"
+//				"xpos"					"5"
 //				"ypos"					"p0.47"
-				"ypos"					"27"
-				"zpos"					"100"
-				"wide"					"f10"
+//				"ypos"					"27"
+//				"zpos"					"100"
+//				"wide"					"f10"
 //				"tall"					"p0.5"
-				"tall"					"60"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-
-				"bgcolor_override"		"0 0 0 255"
-
-				"items"
-				{
-					"0"
-					{
-						"item"		"Rainy Day Cosmetic Key" 
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Rainy Day Cosmetic Case"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Taunt: The Table Tantrum"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Taunt: Didgeridrongo"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Taunt: Scotsmann's Stagger"
-						"show_market"	"0"
-					}
-				}
-			}
+//				"tall"					"60"
+//				"visible"				"1"
+//				"enabled"				"1"
+//				"scaleImage"			"1"
+//				"proportionaltoparent"	"1"
+//
+//				"bgcolor_override"		"0 0 0 255"
+//
+//				"items"
+//				{
+//					"0"
+//					{
+//						"item"		"Rainy Day Cosmetic Key" 
+//						"show_market"	"0"
+//					}
+//					"1"
+//					{
+//						"item"		"Rainy Day Cosmetic Case"
+//						"show_market"	"1"
+//					}
+//					"2"
+//					{
+//						"item"		"Taunt: The Table Tantrum"
+//						"show_market"	"0"
+//					}
+//					"3"
+//					{
+//						"item"		"Taunt: Didgeridrongo"
+//						"show_market"	"0"
+//					}
+//					"4"
+//					{
+//						"item"		"Taunt: Scotsmann's Stagger"
+//						"show_market"	"0"
+//					}
+//				}
+//			}
 
 		} // Background
 
